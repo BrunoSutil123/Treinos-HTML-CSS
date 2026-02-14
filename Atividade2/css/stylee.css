@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#cabecalho{
+    background-color: rgb(157, 157, 157);
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    background-color: gray;
+    width: 300px;
+    padding: 20px;
+    margin: 30px;
+    border: 3px solid black;
+    box-sizing: border-box;
+}
