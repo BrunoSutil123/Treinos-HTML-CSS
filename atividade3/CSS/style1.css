@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.P1{
+    display: flex;
+    justify-content: center;
+}
+
+.caixa1{
+    text-align: center;
+    background-color: red;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding: 40px;
+    margin: 10px;
+    border: 2px solid black;
+
+
+}
+
+.caixa2{
+    text-align: center;
+    background-color: green;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding: 10px;
+    margin: 40px;
+    border: 2px solid black;
+
+
+}
+
+.caixa3{
+    text-align: center;
+    background-color: blue;
+    font-size: 20px;
+    font-weight: bold;
+
+    padding: 10px;
+    margin: 10px;
+    border: 40px solid black;
+
+
+}
+
+
+/*--------------------------------------------*/
+
+.sec2{
+    display: flex;
+    justify-content: center;
+}
+
+.P2{
+    width: 400px;
+    padding: 50px;
+    border: 10px solid black;
+    box-sizing: border-box;
+}
+
+
+/*--------------------------------------------*/
+
+
+.cartao{
+    background-color: rgb(206, 206, 206);
+    width: 400px;
+    margin: 50px auto;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px;
+    box-sizing: border-box;
+}
+
+.imagemUser img{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    object-fit: cover; /*controla como uma imagem se comporta dentro de um tamanho fixo*/
+}
+
+.userInfo{
+    background-color: rgb(179, 179, 179);
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.userInfo p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+button{
+    background-color: rgb(74, 74, 74);
+    color: white;
+    border: none;
+    width: 120px;
+    font-weight: bold;
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;/*Mouse interage ao passar por cima*/
+}

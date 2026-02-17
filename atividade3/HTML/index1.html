@@ -1,0 +1,90 @@
+<!--
+P1 - Crie 3 caixas:
+ - Uma com muito padding
+ - Uma com muita margin
+ - Uma com borda grossa
+Observe as diferenças.
+
+--------------------------------
+
+P2 - Faça uma caixa de:
+ - width: 400px
+ - padding: 50px
+ - border: 10px solid black
+ - Sem usar box-sizing: border-box, calcule o tamanho final.
+
+ - Depois ative border-box e veja a diferença.
+
+
+------------------------------------------
+
+P3 - Crie um cartão de perfil simples:
+ - largura fixa
+ - imagem
+ - título
+ - descrição
+ - botão
+ - margem centralizada
+
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Estruturando código HTML com estilização CSS">
+    <link rel="stylesheet" href="/atividade3/CSS/style1.css">
+    <title>Atividade - 3</title>
+</head>
+
+<body>
+    
+    <main>
+
+        <section class="P1"><!--P1-->
+            <div class="caixa1">
+                <p>1</p>
+            </div>
+
+            <div class="caixa2">
+                <p>2</p>
+            </div>
+
+            <div class="caixa3">
+                <p>3</p>
+            </div>
+        </section>
+        
+        <hr>
+        <br>
+
+        <section class="sec2"><!--P2-->
+            <div class="P2">
+                <p>P2</p>
+            </div>
+        </section>
+
+        <br>
+        <hr>
+        <br>
+
+
+        <section class="cartao"><!--P3-->
+            <figure class="imagemUser">
+                <img src="/atividade3/img/user_icon.jpg" alt="Imagem de ícone de um usuário">
+            </figure>
+            <article class="userInfo">
+                <h1>User Name</h1>
+                <p>Desenvolvedor Front-end em formação, com foco na construção de interfaces organizadas, responsivas e bem estruturadas. Atualmente estudando HTML e CSS, aplicando conceitos como semântica, box model, flexbox e boas práticas de estilização em projetos práticos.</p>
+
+                <p>Busco evoluir constantemente através de desafios, aprimorando minha lógica e atenção aos detalhes para criar experiências web mais profissionais e intuitivas. Meu objetivo é consolidar uma base sólida no desenvolvimento web e, futuramente, atuar em projetos cada vez mais completos e desafiadores.</p>
+                <br>
+                <a href="https://github.com/?locale=pt-BR" target="_blank" rel="noopener noreferrer"> <button type="button">GitHub</button></a>
+            </article>            
+        </section>
+
+    </main>
+</body>
+</html>
