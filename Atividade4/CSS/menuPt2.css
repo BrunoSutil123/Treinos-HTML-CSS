@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menuHorizontal {
+    background-color: gray;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+}
+
+.menuHorizontal h1,
+.navegacao,
+.iconUser {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menuHorizontal h1 {
+    margin-right: 50px;
+}
+
+.iconUser {
+    margin-left: 50px;
+}
+
+.navegacao a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navegacao button {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+.iconUser img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
