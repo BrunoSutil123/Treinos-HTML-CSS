@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+/*Pt1*/
+.blockBox{
+    background-color: red;
+    display: block;
+    height: 50px;
+    padding: 50px;
+}
+
+.inlineBox{
+    background-color: green;
+    display: inline;
+
+}
+
+.inline-blockBox{
+    background-color: blue;
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    padding: 10px;
+
+}
+
+
+
+
