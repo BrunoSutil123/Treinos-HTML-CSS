@@ -1,0 +1,14 @@
+.card{
+    width: 200px;
+    height: 200px;
+    background-color: gray;
+    position: relative; /* ESSENCIAL */
+    margin-top: 50px;
+}
+
+.botao{
+    background-color: rgb(75, 255, 75);
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
