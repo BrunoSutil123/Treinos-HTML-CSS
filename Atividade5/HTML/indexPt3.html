@@ -70,27 +70,31 @@ Regras:
             <article class="conversasOptions"> 
                 <h2>Conversas</h2> 
                 <picture>
-                    <a href="#nova_conversa"><img src="/Atividade5/img/imgNovaConversa.png" alt="ícone de nova conversa"></a> 
-                    <a href="#mais_opcoes"><img src="/Atividade5/img/imgMaisOpcoes.png" alt="ícone de mais opções"></a> 
+                    <div class="styleOptions">
+                        <a href="#nova_conversa"><img src="/Atividade5/img/imgNovaConversa.png" alt="ícone de nova conversa"></a> 
+                    </div>
+                    <div class="styleOptions2">
+                        <a href="#mais_opcoes"><img src="/Atividade5/img/imgMaisOpcoes.png" alt="ícone de mais opções"></a> 
+                    </div>
                 </picture>
             </article> 
 
 
             
             <article class="conversasBusca">
-                <id class="barraBusca">
+                <div class="barraBusca">
                     <label for="barra">
                         <img src="/Atividade5/img/imgLupa.png" alt="ícone lupa">
                         <input type="text" id="barra" placeholder="Pesquisar ou começar uma nova conversa">
                     </label>
-                </id>
+                </div>
 
-                <id class="filtro">
+                <div class="filtro">
                     <a href="#todos"><button>Todos</button></a>
                     <a href="#naoLidas"><button>Não idas</button></a>
                     <a href="#favoritas"><button>Favoritas</button></a>
                     <a href="#grupos"><button>Grupos</button></a>
-                </id>
+                </div>
             </article> 
             
 
@@ -259,8 +263,23 @@ Regras:
 
 
         <section class="chat">
-            <article class="tituloChat">
 
+            <article class="tituloChat">
+                <figure class="imagemUsuario">
+                    <img src="/Atividade5/img/imgUsuario.jpg" alt="imagem usuario">
+                </figure>
+                <div class="infUsuario">
+                    <h4>Grande amigo😜</h4>
+                    <p>visto por último hoje às 17:00</p>
+                </div>
+                <div class="optionsUsuario">
+                    <div class="ligar">
+                        <img src="/Atividade5/img/imgCamera.png" alt="ícone de camera para ligação de vídeo">
+                        <p>Ligar</p>
+                    </div>
+                    <a href="#Pesquisar"><img src="/Atividade5/img/imgLupa.png" alt="ícone lupa"></a>
+                    <a href="#MaisOpcoes"><img src="/Atividade5/img/imgMaisOpcoes.png" alt="ícone de mais opções"></a>
+                </div>
             </article>
 
             <article class="areaChat">
@@ -352,9 +371,23 @@ Regras:
 
             </article>
 
-            <div class="espacoDigitar">
-                <!-- input aqui -->
-            </div>
+
+
+
+            <article class="espacoDigitar">
+                <id class="barraDigitar">
+                    <label class="barra">
+                        <div class="iconMore"><img src="/Atividade5/img/img+.png" alt="ícone do símbolo mais do WhatsApp"></div>
+                        <div class="sticker"><img src="/Atividade5/img/imgSticker.png" alt="ícone de figurinha do WhatsApp"></div>
+                        <input type="text" id="barra" placeholder="Pesquisar ou começar uma nova conversa">
+
+                        <div class="mic"><img src="/Atividade5/img/imgMic.png" alt="ícone microfone do WhatsApp"></div>
+                        
+                    </label>
+                </id>
+            </article>
+
+            
         </section>
     </main>
 
