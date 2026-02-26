@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    height: 100px;
+    width: auto;
+    gap: 10px;
+    background-color: gray;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.caixa{
+    display: flex;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
