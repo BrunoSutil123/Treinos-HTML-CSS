@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
 }
@@ -24,4 +25,32 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+=======
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    width: 600px;
+    height: 300px;
+}
+
+.sidebar {
+    width: 200px; /* fixa */
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    flex: 1; /* ocupa o resto */
+    background-color: red;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+>>>>>>> afe8681dd17f913ea0dbcb2c6d5f5fdc3bf4ddc2
 }
