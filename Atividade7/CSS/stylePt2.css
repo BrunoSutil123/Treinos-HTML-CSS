@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gray;
+
+    display: grid;
+
+    height: 100vh;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 160px 1fr 60px;
+
+
+    grid-template-areas: 
+        "cabecalho cabecalho"
+        "sidebar conteudo"
+        "rodape rodape";
+
+}
+
+.cabecalho{
+    background-color: red;
+    grid-area: cabecalho;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.sidebar{
+    background-color: green;
+    grid-area: sidebar;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.conteudo{
+    background-color: blue;
+    grid-area: conteudo;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.rodape{
+    grid-area: rodape;
+    background-color: yellow;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
