@@ -1,0 +1,30 @@
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.area {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+}
+
+.card {
+    background-color: rgb(91, 91, 91);
+    height: 300px;
+    width: 200px;
+
+    border-radius: 10px;
+
+    box-shadow: 20px 20px 50px;
+
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
